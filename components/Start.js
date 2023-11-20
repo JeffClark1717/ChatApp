@@ -22,7 +22,7 @@ const Start = ({ navigation }) => {
   return (
     <ImageBackground source={imgBackground} style={styles.image}>
       {/* app title: */}
-      <Text style={styles.title}>Chatroom App</Text>
+      <Text style={styles.title}>ChatApp</Text>
 
       {/* container for imput, color choice and button */}
       <View style={styles.imputBox}>
@@ -183,3 +183,5 @@ const styles = StyleSheet.create({
 });
 
 export default Start;
+
+
