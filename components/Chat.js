@@ -22,7 +22,6 @@ function Chat() {
   }, [color, name]);
 
   useEffect(() => {
-    navigation.setOptions({ title: name });
     const q = query(collection(db, "messages"), orderBy("createdAt", "desc"));
 
     const unsubMessages = onSnapshot(q, (documentsSnapShot) => {
