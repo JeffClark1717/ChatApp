@@ -21,4 +21,5 @@ initializeAuth(app, {
 // const storage = getStorage(app);
 const db = getFirestore(app);
 
+
 export { app, db };
